@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    background-image: url(img/wallpapersden.com_game-grand-theft-auto-vi-4k-car_1920x1080.jpg);
+}
+
+*{
+transition: all 0.3s ease;
+}
+
+
+
+legend{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    height: 90vh;
+    width: 50vw;
+    background-color: rgba(35, 34, 46, 0.534);
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-color: black;
+    border: 5px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(3px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo {   
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(48, 49, 60, 0.472);
+    border: 5px solid rgb(0, 0, 0);
+    font-family: "Jersey 10", sans-serif;
+    width: 20vw;
+    height: 15vh;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.inputs{
+    height: 90vh;
+    width: 50vw;
+    background-color: rgba(11, 8, 46, 0.534);
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-color: black;
+    border: 5px solid rgb(0, 0, 0);
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    background-color:rgba(255, 255, 255, 0.083);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 10vw;
+    height: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+button:hover{
+    scale: 1.5;
+    background-color: red;
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif; 
+}
